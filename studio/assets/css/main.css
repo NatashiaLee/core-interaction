@@ -2,14 +2,14 @@
 html{margin-top: 2%; margin-left: 4%; margin-right: 4%; margin-bottom: 4%;}
 
 
-@font-face { font-family: "moderne_sans"; src: url("assets/fonts/moderne_sans.ttf"); }
-@font-face { font-family: "noir_medium"; src: url("assets/fonts/noir_medium.otf"); }
+@font-face { font-family: "moderne_sans"; src: url("../fonts/moderne_sans.ttf"); }
+@font-face { font-family: "noir_medium"; src: url("../fonts/noir_medium.otf"); }
 
-@font-face { font-family: "Neutra Display Bold"; src: url("assets/fonts/Neutra Display Bold.otf"); }
-@font-face { font-family: "Cabin-Regular"; src: url("assets/fonts/Cabin-Regular.otf"); }
+@font-face { font-family: "Neutra Display Bold"; src: url("../fonts/Neutra Display Bold.otf"); }
+@font-face { font-family: "Cabin-Regular"; src: url("../fonts/Cabin-Regular.otf"); }
 
 
-h1 { font: normal 48px "moderne_sans"; color: blue; text-align: center;}
+h1 { font: normal 48px "Neutra Display Bold"; color: #22a8a1; text-align: center;}
 h2 { font: normal 20px "Cabin-Regular";}
 p {font: normal 15px "Cabin-Regular";}
 a {font: normal 15px "Cabin-Regular";}
@@ -53,6 +53,7 @@ body {
   width: 700px;
   height: 500px;
   display: inline; float: left;
+  vertical-align: top;
 }
 
 .brand {
