@@ -11,12 +11,12 @@ html{margin-top: 2%; margin-left: 4%; margin-right: 4%; margin-bottom: 4%;}
 
 h1 { font: normal 48px "Neutra Display Bold"; color: #22a8a1; text-align: center;}
 h2 { font: normal 20px "Cabin-Regular";}
-p {font: normal 15px "Cabin-Regular";}
+p {font: normal 15px "Cabin-Regular"; color: black;}
 a {font: normal 15px "Cabin-Regular";}
 
 body {
   border-left: #22a8a1;
-  max-width: 1100px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -75,4 +75,13 @@ body {
   width: 450px;
   height: 320px;
   padding-top: 10px;
+}
+
+.chobani  {
+  width: 800px;
+  margin: 0;
+}
+
+#vid {
+  margin: auto;
 }
