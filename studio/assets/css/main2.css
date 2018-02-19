@@ -1,0 +1,49 @@
+
+html{margin-top: 2%; margin-left: 4%; margin-right: 4%; margin-bottom: 4%;}
+
+
+@font-face { font-family: "moderne_sans"; src: url("../fonts/moderne_sans.ttf"); }
+@font-face { font-family: "noir_medium"; src: url("../fonts/noir_medium.otf"); }
+
+@font-face { font-family: "Neutra Display Bold"; src: url("../fonts/Neutra Display Bold.otf"); }
+@font-face { font-family: "Cabin-Regular"; src: url("../fonts/Cabin-Regular.otf"); }
+
+
+h1 { font: normal 48px "Neutra Display Bold"; color: #22a8a1; text-align: center;}
+h2 { font: normal 20px "Cabin-Regular";color: #22a8a1;}
+p {font: normal 15px "Cabin-Regular"; color: black;}
+a {font: normal 15px "Cabin-Regular";}
+
+body {
+  border-left: #22a8a1;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {margin-top: 1%; margin-bottom: 0;}
+p {margin: 0;}
+
+.fig-wrapper figure {
+  margin: 20px 0 20px 0px;
+}
+
+.fig-wrapper img {
+  display: flex;
+  position: relative;
+  width: 350px;
+  margin: 0;
+}
+
+.fig-1 {
+  /* margin: 50px 0px 0px 50px; */
+  float: left;
+}
+.fig-2  {
+  /* margin: 50px 0px 50px 50px; */
+  float: right;
+}
+
+figcaption {
+  position: absolute;
+  font: normal 12px "Cabin-Regular";
+}
