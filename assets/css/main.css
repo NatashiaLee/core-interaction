@@ -1,0 +1,61 @@
+@font-face { font-family: "Neutra Display Bold copy"; src: url("../Neutra Display Bold copy.otf"); }
+@font-face { font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
+}
+@font-face {font-family: museo-sans, sans-serif;
+font-style: normal;
+font-weight: 900;
+}
+
+body {background-color: #22a8a1;
+}
+
+h1 {font-family: "Neutra Display Bold copy";
+  text-align: center;
+  top: 90px;
+  position: relative;
+  margin: auto;
+  color: white;
+  font-size: 100px;
+}
+
+a {
+  font-family: "Neutra Display Bold copy";
+  font-size: 90px;
+  text-decoration: none;
+  color: white;
+}
+
+a:visted {
+  color: black;
+}
+
+
+a:link {
+  color: black;
+}
+
+a:hover {
+    color: black;
+  }
+
+  a:active {
+    color: black;
+  }
+
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  /* width: 1100px; */
+  padding: 60px;
+  margin: 30px;
+}
+
+.line-separator{
+height:80px;
+background:#717171;
+border-right:1px solid white;
+}
