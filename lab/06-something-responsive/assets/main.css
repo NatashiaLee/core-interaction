@@ -365,6 +365,7 @@ h1:nth-of-type(2){
   h1:last-child{
     opacity:1;
     font-family: "noir_medium";color: white;
+    top:30%;
   }
   h1{
     opacity:0;

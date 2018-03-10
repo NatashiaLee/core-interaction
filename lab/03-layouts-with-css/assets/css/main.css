@@ -154,10 +154,43 @@ figcaption {
   display: flex;
 }
 
-.index p {
-  flex: 3;
+main.index {
+  display: flex;
+  height: 500px;
+  width: 900px;
+  border: 1px solid black;
 }
 
 .MainNav {
-  flex: 5;
+  flex: 0 0 50%;
+  margin: 0;
+  padding: 0;
+  /* width: 900px; */
 }
+
+main.index p {
+  flex: 0 0 50%;
+  padding: 30px;
+  border: 1px solid black;
+  margin: 0;
+}
+
+main.index li {
+  flex: 1;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+main.index ul {
+  display: flex;
+flex-direction: column;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+/* .MainNav {
+  flex: 5;
+} */
