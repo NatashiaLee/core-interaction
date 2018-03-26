@@ -122,3 +122,77 @@ var addNumbers = function(num1, num2) {
 }
 
 console.log(addNumbers(8,12));
+
+var squareNumbers = function square(num) {
+  return num * num;
+}
+
+console.log(squareNumbers(2));
+
+//function squared (number) {}
+
+var me = {
+  name: 'Johnny',
+  age: 83,
+  nativeNewYorker: true
+};
+
+console.log('me:', me);
+
+var squared = function (number) {
+  return number * number
+};
+
+var describeMe = function (me) {
+  return me.name + '!!!!'
+};
+
+var describeMe = function (me) {
+  return 'My name is' + me.name + '! I am' + me.age + 'yrs old. If you asked me if I am a native New Yorker, my response would be: ' + me.nativeNewYorker
+};
+
+var Natashia = {
+  name: 'Natashia',
+  age: 19,
+  nativeNewYorker: false
+}
+
+console.log('');
+
+//CONDITIONSL STATEMENTS
+console.log('Conditional Statements-')
+
+if(me.age > 21) {
+  console.log('party time')
+} else if (me.age < 5)
+    console.log('why are you here')
+ else {
+  console.log('not quite yet')
+}
+
+console.log('');
+
+//loop
+console.log('Loops-')
+var hamburgers = 0;
+for (var i = 0; hamburgers < 10; i++) {
+  console.log(hamburgers + 'hamburger(s)');
+  hamburgers++;
+}
+
+for (var i=0; i<5; i++) {
+      console.log(i);
+}
+
+console.log('how many licks does it take to get to the center of a tootsie pop?')
+
+for (var licks = 1; licks <=4; licks++) {
+  console.log(licks)
+}
+
+if (licks == 4) {
+    console.log('CRUNCH!!!')
+} else {
+    console.log(licks)
+}
+}

@@ -1,0 +1,13 @@
+#greenman img {
+  width: 510px;
+  height: 350px;
+  display: inline; float: left;
+  padding-left: 10px; padding-top: 5px; padding-bottom: 15px;
+}
+
+#greenman2 img {
+  width: 510px;
+  height: 350px;
+  display: inline; float: right;
+  padding-top: 5px; padding-right: 10px; padding-left: 10px; padding-bottom: 15px;
+}

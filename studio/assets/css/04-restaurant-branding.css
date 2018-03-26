@@ -1,0 +1,35 @@
+h2 { font: normal 20px "Cabin-Regular";color: #22a8a1;}
+
+body {
+  border-left: #22a8a1;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {margin-top: 1%; margin-bottom: 0;}
+p {margin: 0;}
+
+.fig-wrapper figure {
+  margin: 20px 0 20px 0px;
+}
+
+.fig-wrapper img {
+  display: flex;
+  position: relative;
+  width: 350px;
+  margin: 0;
+}
+
+.fig-1 {
+  /* margin: 50px 0px 0px 50px; */
+  float: left;
+}
+.fig-2  {
+  /* margin: 50px 0px 50px 50px; */
+  float: right;
+}
+
+figcaption {
+  position: absolute;
+  font: normal 12px "Cabin-Regular";
+}

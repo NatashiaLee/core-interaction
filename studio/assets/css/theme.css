@@ -1,0 +1,17 @@
+#theme {
+  max-width: 500px;
+  display: inline; float: right;
+  position: relative;
+  top: 100px;
+}
+
+#pic {
+display: flex;
+justify-content: center;
+align-items: center;
+/* padding-left: 20px;
+  width: 400px;
+  height: 950px;
+  display: inline-block; float: left;
+  position: relative; */
+}
