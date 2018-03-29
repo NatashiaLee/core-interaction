@@ -8,15 +8,24 @@ html{margin-top: 2%; margin-left: 4%; margin-right: 4%; margin-bottom: 4%;}
 @font-face { font-family: "Neutra Display Bold"; src: url("../fonts/Neutra Display Bold.otf"); }
 @font-face { font-family: "Cabin-Regular"; src: url("../fonts/Cabin-Regular.otf"); }
 
+@font-face {font-family: fertigo-script, sans-serif;
+font-style: normal;
+font-weight: 400;}
+
+@font-face { font-family: "Roboto-Regular"; src: url("../fonts/Roboto-Regular.ttf"); }
+
+
+@font-face { font-family: "COLLEGE"; src: url("../fonts/COLLEGE.ttf"); }
 
 h1 { font: normal 48px "Neutra Display Bold"; color: #22a8a1; text-align: center;}
 h2 { font: normal 20px "Cabin-Regular";}
+h3 {font: normal 48px "Roboto-Regular"; color: grey; text-align: center;}
 p {font: normal 15px "Cabin-Regular"; color: black;}
 a {font: normal 15px "Cabin-Regular";}
 
 body {
   border-left: #22a8a1;
-  max-width: 1000px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -31,3 +40,91 @@ footer {
     position: absolute;
     width: 100%;
 }
+
+/* .female {
+        width: 130px;
+        height: 195px;
+        background: url("/media/img/female.png") no-repeat;
+        /* margin: 50px; */
+    /* }
+    .female:hover {
+        background: url("/media/img/male.jpg") no-repeat;
+    } */
+
+    .button {
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        /* padding: 15px 32px; */
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        font-size: 20px;
+        font-family: "Neutra Display Bold";
+        margin: auto;
+        cursor: pointer;
+        width: 100px;
+        left: 40%;
+    }
+
+    .button:hover {
+    background-color: #22a8a1;
+    color: white;
+    }
+
+.post {
+margin: auto;}
+    .click .button {
+      margin: auto;
+      padding: 20px;
+      margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .click {
+    margin: -50px;
+    }
+
+.female {
+  width: 30%;
+  height: 30%;
+  display: inline-block;
+  margin: 100px;
+  margin-right: 20px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.male {
+  width: 40%;
+  height: 40%;
+  display: inline-block;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+    /* .female { transition: all .2s ease-in-out infinite;}
+.female:hover { transform: scale(1.1);} */
+
+/* .male { transition: all .2s ease-in-out;}
+.male:hover { transform: scale(1.1);} */
+
+/* .female {
+    animation-iteration-count: infinite;
+} */
+
+@keyframes pulse {
+  0% {transform: scale(1)}
+  50% {transform: scale(1.1)}
+  100% {transform: scale(1)}
+}
+
+.female:hover, .male:hover {
+  animation: pulse 2s .2s ease-in-out infinite;
+}
+
+
+/* animation: 5s ease-in-out infinite alternate;
+    -webkit-animation: 5s ease-in-out infinite alternate; */

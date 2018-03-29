@@ -1,0 +1,18 @@
+body {background-color: black;
+}
+
+h1 {font-family: "Neutra Display Bold";
+  text-align: center;
+  top: 90px;
+  position: relative;
+  margin: auto;
+  color: white;
+  font-size: 100px;
+}
+
+a {
+  font-family: "Neutra Display Bold";
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  }
