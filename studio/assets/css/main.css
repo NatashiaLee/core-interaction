@@ -41,6 +41,33 @@ footer {
     width: 100%;
 }
 
+.post {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+padding: 20px;
+/* display: inline-block; */
+}
+
+.post:nth-child(4) {
+margin-top: 20px;
+margin-right: 10px;}
+
+.post:nth-child(2) {
+  margin-top: 20px;
+margin-right: 10px;}
+
+.post:nth-child(1) {
+  margin-top: 20px;
+margin-right: 10px;}
+
+.post:nth-child(5) {
+margin-right: 10px;}
+
+
 /* .female {
         width: 130px;
         height: 195px;
@@ -52,9 +79,9 @@ footer {
     } */
 
     .button {
-        background-color: white;
-        border: 1px solid black;
-        color: black;
+        /* background-color: none; */
+        border: 1px solid white;
+        color: white;
         /* padding: 15px 32px; */
         text-align: center;
         text-decoration: none;
@@ -68,8 +95,9 @@ footer {
     }
 
     .button:hover {
-    background-color: #22a8a1;
-    color: white;
+    /* background-color: #22a8a1; */
+    background-color: white;
+    color: black;
     }
 
 .post {
@@ -87,11 +115,12 @@ margin: auto;}
     }
 
 .female {
-  width: 30%;
-  height: 30%;
+  width: 31%;
+  height: 31%;
   display: inline-block;
-  margin: 100px;
-  margin-right: 20px;
+  margin: 110px;
+  margin-bottom: 90px;
+  margin-right: 50px;
 }
 
 .wrapper {
@@ -121,8 +150,8 @@ margin: auto;}
   100% {transform: scale(1)}
 }
 
-.female:hover, .male:hover {
-  animation: pulse 2s .2s ease-in-out infinite;
+.female:hover, .male:hover, .button:hover {
+  animation: pulse 0.9s .2s ease-in-out infinite;
 }
 
 
