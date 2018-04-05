@@ -21,15 +21,42 @@
 //   }
 // }
 
-window.onscroll = function() {myFunction()};
+// document.body.className = 'fade';
+//
+// document.addEventListener("DOMContentLoaded", function(e) {
+//   document.body.className = '';
+// });
 
-function myFunction() {
+// document.body += ' fade-out';
+//
+// // document.body.classList.add('fade');
+// window.onload.body.removeClass('fade-out');
+// document.addEventListener("DOMContentLoaded", function(e) {
+//     document.body.classList.remove('fade');
+// window.onload = function setFadeIn(){
+//     document.body.className = 'body fade'
+//     setTimeout(setFadeOut, 500);
+//
+//     function setFadeOut(){
+//     document.body.className = 'body';
+
+// window.onload = function ()	{fadein()};
+//
+// function fadein() {("#wrapper").addClass("fadein");
+// };
+
+window.onscroll = function() {
+  myFunction1()
+  myFunction2()
+};
+
+function myFunction1() {
     if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
         document.getElementById("myImg").className = "slideUp";
     }
 }
 
-function myFunction() {
+function myFunction2() {
     if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
         document.getElementById("myImg2").className = "slideUp2";
     }
@@ -52,3 +79,34 @@ function replaceImage() {
     position = 0;
   }
 }
+
+// window.onscroll = function() {
+//   myFunction1()
+//   myFunction2()
+//   myFunction3()
+//   myFunction4()
+// };
+//
+// function myFunction1() {
+//     if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+//         document.getElementById("Mer").className = "slideUp";
+//     }
+// }
+//
+// function myFunction2() {
+//     if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+//         document.getElementById("Dove").className = "slideUp2";
+//     }
+// }
+//
+// function myFunction3() {
+//     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+//         document.getElementById("Uni").className = "slideUp3";
+//     }
+// }
+//
+// function myFunction4() {
+//     if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
+//         document.getElementById("Ikea").className = "slideUp4";
+//     }
+// }

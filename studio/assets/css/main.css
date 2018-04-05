@@ -12,6 +12,15 @@ html{margin-top: 2%; margin-left: 4%; margin-right: 4%; margin-bottom: 4%;}
 font-style: normal;
 font-weight: 400;}
 
+@font-face {font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;}
+
+@font-face {font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;}
+
 @font-face { font-family: "Roboto-Regular"; src: url("../fonts/Roboto-Regular.ttf"); }
 
 
@@ -20,12 +29,23 @@ font-weight: 400;}
 h1 { font: normal 48px "Neutra Display Bold"; color: #22a8a1; text-align: center;}
 h2 { font: normal 20px "Cabin-Regular";}
 h3 {font: normal 48px "Roboto-Regular"; color: grey; text-align: center;}
-p {font: normal 15px "Cabin-Regular"; color: black;}
+/* p {font-family: "proxima-nova", sans-serif; font-weight: 300px; font-size: 15px; line-height: 1.3em; color: #575757;} */
+p {font-family: "proxima-nova", sans-serif; font-weight: 300px; font-size: 15px; line-height: 1.3em; color: #575757;}
 a {font: normal 15px "Cabin-Regular";}
 
 body {
+  opacity: 1;
+  transition: 0.7s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+body {
   border-left: #22a8a1;
-  max-width: 800px;
+  max-width: 750px;
   margin: auto;
 }
 

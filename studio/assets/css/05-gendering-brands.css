@@ -28,9 +28,89 @@ p {margin: 0;}
   display: flex;
   position: relative;
   width: 400px;
+  visibility: hidden;
 }
+
+.wrap1 .wrap2 {
+  visibility: hidden;
+}
+
+/* img {
+  visibility: hidden;
+} */
 
 .wrapper img {
   width: 100%;
   height: 100%;
 }
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateX(-90%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideUp2 {
+    0% {
+        opacity: 0;
+        transform: translateX(80%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.slideUp {
+    animation-name: slideUp;
+    animation-duration: 1s;
+    visibility: visible;
+  }
+
+
+  .slideUp2 {
+      animation-name: slideUp2;
+      animation-duration: 1s;
+      visibility: visible;
+    }
+
+
+@keyframes slideUp3 {
+        0% {
+            opacity: 0;
+            transform: translateX(-90%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+
+    @keyframes slideUp4 {
+        0% {
+            opacity: 0;
+            transform: translateX(80%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
+    .slideUp3 {
+        animation-name: slideUp3;
+        animation-duration: 1s;
+        visibility: visible;
+      }
+
+
+      .slideUp4 {
+          animation-name: slideUp4;
+          animation-duration: 1s;
+          visibility: visible;
+        }
