@@ -33,6 +33,23 @@ h3 {font: normal 48px "Roboto-Regular"; color: grey; text-align: center;}
 p {font-family: "proxima-nova", sans-serif; font-weight: 300px; font-size: 15px; line-height: 1.3em; color: #575757;}
 a {font: normal 15px "Cabin-Regular";}
 
+.part-b {
+    background: red;
+    overflow: hidden;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+}
+.part-b .background {
+    display: block;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+height: 100vh;
+background-color: blue;
+}
+
 body {
   opacity: 1;
   transition: 0.7s opacity;
@@ -45,7 +62,7 @@ body.fade-out {
 
 body {
   border-left: #22a8a1;
-  max-width: 750px;
+  max-width: 800px;
   margin: auto;
 }
 
