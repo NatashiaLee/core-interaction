@@ -1,10 +1,16 @@
 var full_fade = document.getElementById('full_fade');
+var elem = document.getElementById('full_fade');
 
 // running fadeOut(); as-is will not work
 setTimeout(fadeOut, 10);
 
 function fadeOut() {
   full_fade.style.opacity = 0;
+}
+
+setTimeout(remove, 999);
+function remove() {
+  elem.remove();
 }
 
 window.onscroll = function() {

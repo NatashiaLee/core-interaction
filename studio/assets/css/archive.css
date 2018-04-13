@@ -1,0 +1,40 @@
+@font-face { font-family: "Neutra Display Bold"; src: url("../fonts/Neutra Display Bold.otf"); }
+
+#theme {
+  width: 400px;
+  height: 1000px;
+  float: left;
+  text-align: center;
+  margin-top: 70px;
+}
+
+#theme a {
+  margin-top: 130px;
+ font: normal 48px "Neutra Display Bold"; color: #22a8a1; text-align: center;
+}
+
+.post {
+  /* border: 1px solid black; */
+  height: 50px;
+  width: 200px;
+  display: inline-flex;
+  justify-content: left;
+  align-items: left;
+padding: 20px;
+/* display: inline-block; */
+}
+
+.post:nth-child(4) {
+margin-top: 20px;
+margin-right: 10px;}
+
+.post:nth-child(2) {
+  margin-top: 80px;
+margin-right: 10px;}
+
+.post:nth-child(1) {
+  margin-top: 20px;
+margin-right: 10px;}
+
+.post:nth-child(5) {
+margin-right: 10px;}

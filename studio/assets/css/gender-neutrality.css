@@ -1,0 +1,153 @@
+@font-face { font-family: "Cabin-Regular"; src: url("../fonts/Cabin-Regular.otf"); }
+
+blockquote {
+font-family: "Cabin-Regular";
+font-size: 18px;
+font-style: normal;
+width: 500px;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+margin: auto;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
+#result {
+  width: 400px;
+  height: 150px;
+  /* border: solid 1px black; */
+  margin: auto;
+  /* position: absolute; */
+}
+
+#image_container {
+  margin: auto;
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  visibility: visible;
+  align-content: center;
+}
+
+.wrapper {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.wrap1 .wrap2 {
+  display: flex;
+  position: relative;
+  width: 500px;
+  visibility: hidden;
+}
+
+.wrap1 .wrap2 {
+  visibility: hidden;
+}
+
+#Mer {
+width: 100%;
+height: auto;
+opacity: 0;
+transform: translateX(-90%);
+}
+
+#Apple {
+width: 50%;
+height: 50%;
+margin-left: 160px;
+}
+
+#Dove {
+  opacity: 0;
+  transform: translateX(80%);
+}
+
+/* img {
+  visibility: hidden;
+} */
+
+.wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateX(-90%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideUp2 {
+    0% {
+        opacity: 0;
+        transform: translateX(80%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.slideUp {
+    animation-name: slideUp;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+
+  .slideUp2 {
+      animation-name: slideUp2;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes slideUp3 {
+        0% {
+            /* opacity: 0; */
+            margin-top: 100%;
+            height: 300%;
+            /* transform: translateY(-80%); */
+        }
+        100% {
+            margin-top: 0%;
+            height: 100%;
+            /* opacity: 1; */
+            /* transform: translateY(0%); */
+        }
+    }
+
+    .slideUp3 {
+        animation-name: slideUp;
+        animation-duration: 2s;
+        animation-fill-mode: backwards;
+      }

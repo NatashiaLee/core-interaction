@@ -19,6 +19,7 @@ p {margin: 0;}
   left: 0;
   transition: opacity 1s ease-in-out;
 }
+
 #results {
   width: 80%;
   height: 80%;
