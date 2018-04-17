@@ -216,10 +216,16 @@ footer {
 .sources ul {
   list-style: none;
   margin-top: 5px;
-}
+  width: 400px;
+  text-align: left;
+  left: 100px;
+margin-left: 199px;}
 
 .sources h2 {
-  font: normal 30px "Neutra Display Bold"; color: black; text-align: center;
+  font: normal 30px "Neutra Display Medium"; color: black; text-align: center;
+   -webkit-margin-after: 0.05em; margin-left: -40px;
+
+
 /* padding-bottom: 5px; */
 }
 

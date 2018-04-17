@@ -1,7 +1,8 @@
 @font-face { font-family: "Cabin-Regular"; src: url("../fonts/Cabin-Regular.otf"); }
+@font-face { font-family: "Brandon_light"; src: url("../fonts/Brandon_light.otf"); }
 
 blockquote {
-font-family: "Cabin-Regular";
+font-family: "Brandon_light";
 font-size: 18px;
 font-style: normal;
 width: 500px;

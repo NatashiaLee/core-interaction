@@ -14,6 +14,7 @@ font-size: 15px;}
   height: 200px;
   position: relative;
   top: -100px;
+  left: 9px;
   /* float: left; */
   display: inline-flex;
   text-align: left;
@@ -34,7 +35,7 @@ opacity: 0;
   top: 200px;
   z-index: 3;
   background: white;
-  transition: opacity 1s ease;
+  transition: opacity 0.9s ease;
   pointer-events: none;
   font: normal 15px "Brandon_light"; color: black;
 
