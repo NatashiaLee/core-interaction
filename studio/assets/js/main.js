@@ -80,7 +80,10 @@ var image_container = document.getElementById('image_container');
 
 var images = ['./media/img/masc.png', './media/img/gen.png', './media/img/fem.png', ];
 
-result.addEventListener('mouseenter', replaceImage);
+var result = document.getElementById('result');
+if (result) {
+  result.addEventListener('mouseenter', replaceImage);
+}
 
 var position = 0;
 
@@ -93,6 +96,8 @@ function replaceImage() {
     position = 0;
   }
 }
+
+// document.getElementById("theme").innerHTML = "<p>This is a <span>new</span> paragraph</p>";
 
 // window.onscroll = function() {
 //   myFunction1()
