@@ -1,0 +1,55 @@
+@font-face {font-family: ff-dagny-web-pro, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-weight: 700;}
+
+h1 {font-family: ff-dagny-web-pro, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 80px;}
+
+h1 {
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {font-family: ff-dagny-web-pro, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+padding: 10px;
+width: 400px;
+text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+
+.text {
+  width: 600px;
+  margin: auto;
+}
+
+p {
+  font-family: ff-dagny-web-pro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.4em;
+}
+
+.img {
+  display: inline-flex;
+  margin-left: 10%;
+}
+
+.one, .two {
+  width: 40%;
+  height: 40%;
+padding: 20px;}

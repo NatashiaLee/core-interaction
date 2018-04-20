@@ -9,12 +9,18 @@ font-size: 15px;}
 
 @font-face { font-family: "Brandon_light"; src: url("../fonts/Brandon_light.otf"); }
 
+body {
+  max-width: 900px;
+}
+
 #theme {
   width: 300px;
   height: 200px;
   position: relative;
-  top: -100px;
-  left: 9px;
+  /* top: -100px;
+  left: 9px; */
+  top: 90px;
+  right: 350px;
   /* float: left; */
   display: inline-flex;
   text-align: left;
@@ -33,6 +39,7 @@ opacity: 0;
   width: 250px;
   height: 200px;
   top: 200px;
+  right: 250px;
   z-index: 3;
   background: white;
   transition: opacity 0.9s ease;
@@ -43,10 +50,11 @@ opacity: 0;
 }
 
 #pic {
-width: 400px;
-height: 300px;
+width: 650px;
+height: 500px;
 display: inline-flex;
 /* flex-wrap: wrap; */
+margin-left: -50px;
 margin-bottom: 50px;
 margin-top: 50px;
 
@@ -65,12 +73,7 @@ height: 100%;
   animation: spin 7s linear infinite;
 }
 
-/* #posts {
-  display: flex;
-  align-items: center;
-} */
-.post {
-  /* border: 1px solid black; */
+/* .post {
   height: 50px;
   width: 200px;
   display: inline-flex;
@@ -78,7 +81,20 @@ height: 100%;
   align-items: left;
 padding: 10px;
 z-index: 3;
-/* display: inline-block; */
+} */
+
+#posts {
+  margin-left: 85%;
+  top: 20px;
+}
+
+.post {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  margin-bottom: 20px;
 }
 
 .post a:hover {
@@ -104,7 +120,7 @@ transform: scale(1.1);
 }
 
 .post a {
-  font: normal 24px "Neutra Display Bold"; color: #22a8a1;
+  font: normal 24px "Brandon_bld"; line-height: 1em; color: #22a8a1;
   transition: all 0.25s ease-in-out;
 }
 
@@ -113,7 +129,7 @@ margin-top: 20px;
 margin-right: 10px;}
 
 .post:nth-child(2) {
-  margin-top: 80px;
+  margin-top: 20px;
 margin-right: 10px;}
 
 .post:nth-child(1) {

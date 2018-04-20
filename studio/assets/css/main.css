@@ -5,6 +5,7 @@ html{margin-top: 2%; margin-left: 0; margin-right: 4%; margin-bottom: 4%;}
 @font-face { font-family: "moderne_sans"; src: url("../fonts/moderne_sans.ttf"); }
 @font-face { font-family: "noir_medium"; src: url("../fonts/noir_medium.otf"); }
 @font-face { font-family: "Brandon_bld"; src: url("../fonts/Brandon_bld.otf"); }
+@font-face { font-family: "Brandon_light"; src: url("../fonts/Brandon_light.otf"); }
 
 @font-face { font-family: "Neutra Display Bold"; src: url("../fonts/Neutra Display Bold.otf"); }
 @font-face { font-family: "Neutra Display Medium"; src: url("../fonts/Neutra Display Medium.otf"); }
@@ -29,11 +30,11 @@ font-weight: 300;}
 
 @font-face { font-family: "COLLEGE"; src: url("../fonts/COLLEGE.ttf"); }
 
-h1 { font: normal 48px "Neutra Display Bold"; color: #22a8a1; text-align: center;}
+h1 { font: normal 60px "Brandon_bld"; color: #22a8a1; text-align: center;}
 h2 { font: normal 20px "Cabin-Regular";}
 h3 {font: normal 48px "Roboto-Regular"; color: grey; text-align: center;}
 /* p {font-family: "proxima-nova", sans-serif; font-weight: 300px; font-size: 15px; line-height: 1.3em; color: #575757;} */
-p {font-family: "proxima-nova", sans-serif; font-weight: 300px; font-size: 15px; line-height: 1.3em; color: #575757;}
+p {font: normal 18px "Brandon_light";line-height: 1.3em; color: #575757;}
 a {font: normal 20px "Brandon_bld";
 text-decoration: none; color: #22a8a1;}
 
@@ -108,6 +109,10 @@ footer {
     width: 100vw;
 }
 
+.btext {
+  max-width: 650px;
+  margin: auto;
+}
 
 
 
@@ -138,6 +143,28 @@ footer {
     }
 
     .button:hover {
+    /* background-color: #22a8a1; */
+    background-color: white;
+    color: black;
+    }
+
+    #theme {
+        /* background-color: none; */
+        border: 1px solid white;
+        color: #22a8a1;
+        /* padding: 15px 32px; */
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        font-size: 20px;
+        font-family: "Neutra Display Bold";
+        margin: auto;
+        cursor: pointer;
+        width: 100px;
+        left: 40%;
+    }
+
+    hover {
     /* background-color: #22a8a1; */
     background-color: white;
     color: black;
@@ -193,7 +220,7 @@ margin: auto;}
   100% {transform: scale(1)}
 }
 
-.female:hover, .male:hover, .button:hover {
+.female, .male, {
   animation: pulse 0.9s .2s ease-in-out infinite;
 }
 
