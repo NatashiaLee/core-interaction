@@ -150,7 +150,7 @@ footer {
 
     #theme {
         /* background-color: none; */
-        border: 1px solid white;
+        /* border: 1px solid white; */
         color: #22a8a1;
         /* padding: 15px 32px; */
         text-align: center;
@@ -220,7 +220,7 @@ margin: auto;}
   100% {transform: scale(1)}
 }
 
-.female, .male, {
+.female, .male {
   animation: pulse 0.9s .2s ease-in-out infinite;
 }
 

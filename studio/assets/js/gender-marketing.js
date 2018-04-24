@@ -20,9 +20,55 @@
 var req = new Request(url);
 
 fetch(req)
-    .then(function(response) {
-        console.log(response.json());
+      .then(function(response) {
+          // Get the response and format it to JSON
+          return response.json();
+      })
+      .then(function(jsonData) {
+          // log the data
+          printStuff(jsonData);
+
+          console.log(jsonData)
+
       });
+
+var some_articles = [];
+var articles_div = document.getElementById('articles');
+var articles_image = document.getElementById('articles_image');
+var articles_description = document.getElementById('articles_description');
+
+function printStuff(data) {
+
+  for (var i = 0; i < 10; i++) {
+    var article = {};
+    article.title = data.articles[i].title;
+    article.image = data.articles[i].urlToImage;
+    some_articles.push(article);
+  }
+
+  articles_title.innerHTML = some_articles[0].title;
+  articles_image.src = some_articles[0].image;
+
+  return some_articles;
+
+}
+
+document.body.addEventListener('click', cycleArticles);
+
+var click_count = 0;
+
+function cycleArticles() {
+  click_count++;
+
+  if (click_count > some_articles.length - 1) {
+    click_count = 0;
+  }
+
+  articles_title.innerHTML = some_articles[click_count].title;
+  articles_image.src = some_articles[click_count].image;
+
+}
+
 
       // .then(function(jsonData) {
       //       // log the data
