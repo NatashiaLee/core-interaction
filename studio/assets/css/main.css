@@ -83,7 +83,7 @@ body {
   opacity: 1;
   transition: 0.7s opacity;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 body.fade-out {

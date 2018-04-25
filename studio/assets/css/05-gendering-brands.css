@@ -155,8 +155,8 @@ transform: translateX(-90%);
           }
 
         .slidecontainer {
-            width: 800px;
-            height: 500px;
+            max-width: 800px;
+            height: auto;
         }
 
         .slidecontainer img {

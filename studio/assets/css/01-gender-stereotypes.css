@@ -11,7 +11,7 @@ width: 600px;
 a {
     text-decoration: none;
     display: inline-flex;
-    padding: 8px 16px;
+    /* padding: 8px 16px; */
 }
 
 a:hover {
@@ -19,14 +19,25 @@ a:hover {
     color: black;
 }
 
-.next {
+#articles {
+  /* background-color: blue; */
+}
+
+#next {
     /* background-color: #4CAF50; */
     color: black;
     width: 20px;
-    font-size: 60px;
-    top: 174px;
+    font: 90px "Brandon_light";
+    /* font-size: 60px; */
+    display: inline-flex;
+    background-color: blue;
+    padding-bottom: 180px;
     margin-left: 20px;
     position: absolute;
+}
+
+.ad {
+  width: 700px;
 }
 
 /* .round {

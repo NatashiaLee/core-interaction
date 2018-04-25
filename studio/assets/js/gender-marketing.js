@@ -9,7 +9,7 @@
 //     });
 
     var url = 'https://newsapi.org/v2/everything?' +
-          'q=Gender AND Stereotypes AND Ads OR Marketing&' +
+          'q=Gender AND Stereotypes AND Brands OR Ads OR Marketing&' +
           'from=2012-01-18&to=2018-04-18' +
           'sortBy=relevancy&' +
           'pageSize=100&' +
@@ -43,28 +43,34 @@ function printStuff(data) {
     var article = {};
     article.title = data.articles[i].title;
     article.image = data.articles[i].urlToImage;
+    article.url = data.articles[i].url;
     some_articles.push(article);
   }
 
-  articles_title.innerHTML = some_articles[0].title;
+  // <a href='url'>title</a>
+  articles_title.innerHTML = "<a href='" + some_articles[0].url + "'  target='_blank'>" + some_articles[0].title + "</a>";
   articles_image.src = some_articles[0].image;
 
   return some_articles;
 
 }
+var next = document.getElementById('next');
 
-document.body.addEventListener('click', cycleArticles);
+next.addEventListener('click', cycleArticles);
 
 var click_count = 0;
 
-function cycleArticles() {
+function cycleArticles(event) {
+  event.preventDefault();
+
   click_count++;
 
   if (click_count > some_articles.length - 1) {
     click_count = 0;
   }
 
-  articles_title.innerHTML = some_articles[click_count].title;
+  // <a href="" target="_blank"
+  articles_title.innerHTML = "<a href='" + some_articles[click_count].url + "'  target='_blank'>" + some_articles[click_count].title + "</a>";
   articles_image.src = some_articles[click_count].image;
 
 }
