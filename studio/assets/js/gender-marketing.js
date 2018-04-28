@@ -13,7 +13,7 @@
           'from=2012-01-18&to=2018-04-18' +
           'sortBy=relevancy&' +
           'pageSize=100&' +
-          'domains=wsj.com,nytimes.com,abcnews.com,huffingtonpost.com,theguardian.com,cbs.com,bbc.com,times.com,cbc.com,cnn.com,channelnewsasia.com,bostonherald.com,adweek.com,nypost.com,washingtonpost.com,itsnicethat.com&' +
+          'domains=wsj.com,nytimes.com,abcnews.com,huffingtonpost.com,theguardian.com,cbs.com,bbc.com,times.com,cbc.com,cnn.com,channelnewsasia.com,bostonherald.com,adweek.com,nypost.com,washingtonpost.com&' +
           // sources=abc-news&bbc-news&cnn&bloomberg&cbc-news%cbs-news&mirror&time&the-new-york-times&wired-de&' +
           'apiKey=24637ba5c5764480a35c1af41ef9c482';
 
@@ -47,7 +47,11 @@ function printStuff(data) {
     some_articles.push(article);
   }
 
-  // <a href='url'>title</a>
+  // var home = document.querySelector('home');
+  //
+  // home.innerHTML = "<a href='" + archive.html + "' >" + "</a>";
+
+    // <a href='url'>title</a>
   articles_title.innerHTML = "<a href='" + some_articles[0].url + "'  target='_blank'>" + some_articles[0].title + "</a>";
   articles_image.src = some_articles[0].image;
 
@@ -74,6 +78,8 @@ function cycleArticles(event) {
   articles_image.src = some_articles[click_count].image;
 
 }
+
+
 
 
       // .then(function(jsonData) {

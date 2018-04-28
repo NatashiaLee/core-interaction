@@ -1,0 +1,11 @@
+img {
+  max-width: 90vw;
+  max-height: 90vw;
+padding-top: 20px;
+}
+
+.toys {
+  display: flex;
+justify-content: center;
+max-width: 800px;
+}

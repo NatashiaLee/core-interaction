@@ -51,8 +51,9 @@ opacity: 0;
 }
 
 #pic {
-width: 650px;
-height: 500px;
+/* width: 650px; */
+width: 70%;
+/* height: 500px; */
 display: inline-flex;
 /* flex-wrap: wrap; */
 margin-left: -100px;
@@ -143,3 +144,12 @@ margin-right: 10px;}
 
 .post:nth-child(5) {
 margin-right: 10px;}
+
+@media only screen and (max-width: 667px) {
+  body {
+    padding-top: 40px;
+  }
+#pic {
+  width: 100vw;
+  margin: auto;
+}
