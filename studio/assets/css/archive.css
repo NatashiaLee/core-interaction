@@ -145,24 +145,19 @@ margin-right: 10px;}
 .post:nth-child(5) {
 margin-right: 10px;}
 
-@media (max-width: 668px) {
+@media (max-width: 430px) {
 
 #pic {
   width: 90vw;
   margin: auto;
-  /* top: 100px; */
   margin-top: 80px;
   margin-left: 30px;
 }
 
-#pic img {
-  /* top: 100px; */
-}
 #posts {
   margin: auto;
   position: relative;
 width: 100vw;
-/* margin-left: 30%; */
 }
 
 }
