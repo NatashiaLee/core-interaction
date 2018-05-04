@@ -54,6 +54,33 @@ margin-left: 52px;}
   width: 700px;
 }
 
+@media (max-width: 475px) {
+  h1 { font: normal 40px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
+}
+
+p {font: normal 20px "Brandon_light";line-height: 1.3em; color: #575757;}
+
+body {
+  padding: 20px;
+}
+
+.youtube {
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.pict img{
+  width: 100vw;
+  margin-left: 0;
+}
+
+#articles {
+  margin-left: -20px;
+}
+
+}
+
 /* .round {
     border-radius: 50%;
 } */

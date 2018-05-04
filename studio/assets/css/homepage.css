@@ -33,6 +33,23 @@ h1 {font-family: "Neutra Display Bold";
   font-size: 100px;
 }
 
+.female {
+  width: 31%;
+  height: 31%;
+  display: inline-block;
+  margin: 110px;
+  margin-bottom: 90px;
+  margin-right: 50px;
+}
+
+.male {
+  width: 40%;
+  height: 40%;
+  display: inline-block;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+
 a {
   font-family: "Neutra Display Light";
   font-size: 30px;
@@ -42,4 +59,14 @@ a {
 
 .back:hover {
   color:
+}
+
+@keyframes pulse {
+  0% {transform: scale(1)}
+  50% {transform: scale(1.1)}
+  100% {transform: scale(1)}
+}
+
+.female, .male {
+  animation: pulse 0.9s .2s ease-in-out infinite;
 }
