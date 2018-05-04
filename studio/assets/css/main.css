@@ -1,6 +1,7 @@
 
 html{margin-top: 2%; margin-left: 0; margin-right: 4%; margin-bottom: 4%;}
 
+<meta name="viewport" content="width=device-width" />
 
 @font-face { font-family: "moderne_sans"; src: url("../fonts/moderne_sans.ttf"); }
 @font-face { font-family: "noir_medium"; src: url("../fonts/noir_medium.otf"); }
@@ -184,26 +185,12 @@ margin: auto;}
     margin: -50px;
     }
 
-.female {
-  width: 31%;
-  height: 31%;
-  display: inline-block;
-  margin: 110px;
-  margin-bottom: 90px;
-  margin-right: 50px;
-}
 
 .wrapper {
   display: flex;
 }
 
-.male {
-  width: 40%;
-  height: 40%;
-  display: inline-block;
-  margin-top: 70px;
-  margin-right: 20px;
-}
+
     /* .female { transition: all .2s ease-in-out infinite;}
 .female:hover { transform: scale(1.1);} */
 
@@ -214,15 +201,6 @@ margin: auto;}
     animation-iteration-count: infinite;
 } */
 
-@keyframes pulse {
-  0% {transform: scale(1)}
-  50% {transform: scale(1.1)}
-  100% {transform: scale(1)}
-}
-
-.female, .male {
-  animation: pulse 0.9s .2s ease-in-out infinite;
-}
 
 .sources {
   text-align: center;
