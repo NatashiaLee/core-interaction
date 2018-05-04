@@ -10,11 +10,16 @@ justify-content: center;
 max-width: 800px;
 }
 
-@media (max-width: 475px) {
-  h1 { font: normal 40px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
+@media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
+    h1 { font: normal 60px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
 }
 
-p {font: normal 20px "Brandon_light";line-height: 1.3em; color: #575757;}
+/* .toys img {
+  width: 100%;
+  height: auto;
+} */
+
+p {font: normal 22px "Brandon_light";line-height: 1.3em; color: #575757;}
 
 body {
   padding: 20px;

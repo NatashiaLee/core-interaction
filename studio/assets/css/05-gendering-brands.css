@@ -155,7 +155,7 @@ transform: translateX(-90%);
           }
 
         .slidecontainer {
-            max-width: 800px;
+            width: 800px;
             height: auto;
         }
 
@@ -169,7 +169,8 @@ transform: translateX(-90%);
 
         .slider {
           -webkit-appearance: none;
-          width: 100%;
+          width: 630px;
+          margin-left: 80px;
           height: 10px;
           border-radius: 5px;
           background: linear-gradient(to right, blue, pink);
@@ -216,11 +217,37 @@ transform: translateX(-90%);
         .number
         {visibility: hidden;}
 
-        @media (max-width: 475px) {
-          h1 { font: normal 40px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
+@media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
+  h1 { font: normal 50px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
         }
 
-        p {font: normal 20px "Brandon_light";line-height: 1.3em; color: #575757;}
+  #results {
+    width: 100%;
+    height: 100%;
+  }
+
+.slidecontainer {
+  width: 100vw;
+  margin-left: -60px;
+}
+  .slidecontainer img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 16px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 50px;
+    height: 50px;
+}
+
+        p {font: normal 22px "Brandon_light";line-height: 1.3em; color: #575757;}
 
         body {
           padding: 20px;
