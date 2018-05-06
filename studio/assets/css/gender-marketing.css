@@ -26,14 +26,11 @@ padding-top: 20px;
   margin-left: -96px;
 }
 
-.btext {
-  max-width: 700px;
-}
 
-p {font: normal 23px "Brandon_light";line-height: 1.3em; color: #575757;}
+p {font: normal 25px "Brandon_light";line-height: 1.3em; color: black;}
 
 body {
-  padding: 18px;
+  padding: 20px;
   /* margin: 10px; */
 }
 
