@@ -1,6 +1,6 @@
-.gb img {
+.gb {
   margin-left: 60px;
-  width: 600px;
+  width: 650px;
 }
 
 header {
@@ -22,7 +22,7 @@ header {
 
 .gb {
   width: 100vw;
-  margin-left: -100px;
+  margin-left: -116px;
 }
 
 p {font: normal 24px "Brandon_light";line-height: 1.3em; color: #575757;}

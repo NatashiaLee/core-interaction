@@ -12,6 +12,7 @@ line-height: 1.45;
 position: relative;
 color: #383838;
 margin: auto;
+margin-top: 20px;
 }
 
 blockquote:before {
@@ -36,8 +37,10 @@ content: "\2014 \2009";
 }
 
 #result {
-  width: 400px;
-  height: 150px;
+  width: 600px;
+  height: auto;
+  padding-bottom: 230px;
+  padding-top: 20px;
   /* border: solid 1px black; */
   margin: auto;
   /* position: absolute; */
@@ -46,8 +49,9 @@ content: "\2014 \2009";
 #image_container {
   margin: auto;
   position: absolute;
-  width: 400px;
-  height: 150px;
+  width: 650px;
+  margin-left: -40px;
+  height: auto;
   display: flex;
   visibility: visible;
   align-content: center;
@@ -57,6 +61,12 @@ content: "\2014 \2009";
   display: flex;
   box-sizing: border-box;
   justify-content: center;
+  margin-bottom: -50px;
+}
+
+.btext {
+  position: relative;
+  z-index: 100;
 }
 
 .wrap1 .wrap2 {
@@ -153,14 +163,43 @@ margin-left: 160px;
         animation-fill-mode: backwards;
       }
 
-      @media (max-width: 475px) {
-        h1 { font: normal 40px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
+      @media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
+          h1 { font: normal 60px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
       }
 
-      p {font: normal 20px "Brandon_light";line-height: 1.3em; color: #575757;}
+      p {font: normal 25px "Brandon_light";line-height: 1.3em; color: #575757;}
 
       body {
         padding: 20px;
       }
+
+      #Mer {
+      width: 50vw;
+    }
+    #Dove {
+      width: 50vw;
+      margin-left: -30px;
+      margin-top: 30px;
+    }
+
+    #Apple {
+      width: 60vw;
+      margin-left: 50px;
+    }
+
+    #image_container {
+      margin-left: -180px;
+      width: 100vw;
+      height: auto;
+      margin-top: -47px;
+    }
+
+    .wrapper {
+      margin-bottom: -10px;
+    }
+
+    #results {
+      padding-bottom: 30px;
+    }
 
       }

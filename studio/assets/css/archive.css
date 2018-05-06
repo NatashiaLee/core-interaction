@@ -147,16 +147,39 @@ margin-right: 10px;}
 
 @media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
 #pic {
-  width: 90vw;
+  width: 96vw;
   margin: auto;
-  margin-top: 80px;
-  margin-left: 30px;
+  margin-top: 90px;
+  margin-left: 10px;
 }
 
 #posts {
   margin: auto;
   position: absolute;
-  top: 800px;
+  top: 976px;
 width: 100vw;
+margin-left: 50px;
+margin-bottom: 30px;
+}
+
+#theme {
+  margin-bottom: 510px;
+  width: 100vw;
+  font: normal 130px "Brandon_bld";
+  top: 230px;
+}
+
+#text {
+  top: 1050px;
+  width: 83vw;
+  margin-left: 6%;
+  font: normal 46px "Brandon_light"; line-height: 1.3em;
+}
+.post {
+  margin-bottom: 60px;
+}
+
+.post a {
+  font: normal 55px "Brandon_bld";
 }
 }
