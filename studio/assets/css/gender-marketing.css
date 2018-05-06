@@ -1,13 +1,16 @@
-img {
-  max-width: 90vw;
-  max-height: 90vw;
+/* .toys img {
+  width: 650px;
+  height: auto;
 padding-top: 20px;
-}
+} */
 
-.toys {
+.toys img {
   display: flex;
-justify-content: center;
-max-width: 800px;
+  margin-left: 45px;
+/* justify-content: center; */
+width: 650px;
+padding-top: 20px;
+/* width: 800px; */
 }
 
 @media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
@@ -18,11 +21,20 @@ max-width: 800px;
   width: 100%;
   height: auto;
 } */
+.toys img {
+  width: 100vw;
+  margin-left: -96px;
+}
 
-p {font: normal 22px "Brandon_light";line-height: 1.3em; color: #575757;}
+.btext {
+  max-width: 700px;
+}
+
+p {font: normal 23px "Brandon_light";line-height: 1.3em; color: #575757;}
 
 body {
-  padding: 20px;
+  padding: 18px;
+  /* margin: 10px; */
 }
 
 }
