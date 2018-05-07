@@ -167,10 +167,10 @@ margin-left: 160px;
           h1 { font: normal 60px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
       }
 
-      p {font: normal 25px "Brandon_light";line-height: 1.3em; color: #575757;}
+      p {font: normal 40px "Brandon_light";line-height: 1.3em; color: #575757;}
 
       body {
-        padding: 20px;
+        padding: 10px;
       }
 
       #Mer {
