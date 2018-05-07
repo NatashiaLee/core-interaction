@@ -35,7 +35,6 @@ h1 {font-family: "Neutra Display Bold";
 
 .female {
   width: 31%;
-  height: 31%;
   display: inline-block;
   margin: 110px;
   margin-bottom: 90px;
@@ -44,7 +43,6 @@ h1 {font-family: "Neutra Display Bold";
 
 .male {
   width: 40%;
-  height: 40%;
   display: inline-block;
   margin-top: 70px;
   margin-right: 20px;
