@@ -67,6 +67,7 @@ content: "\2014 \2009";
 .btext {
   position: relative;
   z-index: 100;
+  width: 630px;
 }
 
 .wrap1 .wrap2 {
@@ -167,15 +168,22 @@ margin-left: 160px;
           h1 { font: normal 60px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
       }
 
-      p {font: normal 40px "Brandon_light";line-height: 1.3em; color: #575757;}
+      p {font: normal 60px "Brandon_light";line-height: 1.3em; color: #575757;}
 
       body {
         padding: 10px;
-        margin: 0;
+        /* margin-left: 200px; */
+      }
+
+      html {
+        /* margin-left: 167px;
+        margin-right: -158%;
+        padding-left: 111px; */
       }
 
       .btext {
-        margin:0;
+        /* margin-left: 390px; */
+        width: 120vw;
       }
 
       #Mer {

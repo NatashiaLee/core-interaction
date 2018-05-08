@@ -42,7 +42,8 @@ opacity: 0;
   margin-left: 60%;
   left: 20px;
   z-index: 3;
-  background: white;
+  background-color: white;
+  -webkit-background: white;
   transition: opacity 0.9s ease;
   pointer-events: none;
   font: normal 15px "Brandon_light"; color: black;
@@ -172,6 +173,7 @@ margin-bottom: 30px;
 #text {
   top: 1050px;
   width: 83vw;
+  height: 450px;
   margin-left: 6%;
   font: normal 46px "Brandon_light"; line-height: 1.3em;
 }

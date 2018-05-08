@@ -18,6 +18,7 @@ var image_container = document.getElementById('image_container');
 var images = ['./media/img/masc.png', './media/img/gen.png', './media/img/fem.png', ];
 
 result.addEventListener('mouseenter', replaceImage);
+result.addEventListener('touchstart', replaceImage);
 
 var position = 0;
 

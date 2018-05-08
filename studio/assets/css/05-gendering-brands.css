@@ -247,10 +247,14 @@ transform: translateX(-90%);
     height: 50px;
 }
 
-        p {font: normal 22px "Brandon_light";line-height: 1.3em; color: #575757;}
+        p {font: normal 30px "Brandon_light";line-height: 1.3em; color: #575757;}
 
         body {
           padding: 20px;
         }
 
+.btext {
+  width: 110%;
+  margin-left:-20px;
+}
         }

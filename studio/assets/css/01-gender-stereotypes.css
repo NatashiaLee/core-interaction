@@ -55,10 +55,10 @@ margin-left: 52px;}
 }
 
 @media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
-  h1 { font: normal 40px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
+  h1 { font: normal 70px "Brandon_bld"; color: #22a8a1; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
 }
 
-p {font: normal 20px "Brandon_light";line-height: 1.3em; color: #575757;}
+p {font: normal 30px "Brandon_light";line-height: 1.3em; color: #575757;}
 
 body {
   padding: 20px;
@@ -77,6 +77,11 @@ iframe {
 
 #articles {
   margin-left: -20px;
+}
+
+.btext {
+  width: 110%;
+  margin-left: -25px;
 }
 
 }
