@@ -218,7 +218,7 @@ transform: translateX(-90%);
         {visibility: hidden;}
 
 @media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
-  h1 { font: normal 50px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
+  h1 { font-size: 50px; color: #22a8a1; text-align: center; margin-top: -24px; margin-bottom: -2px; line-height: 1em;
         }
 
   #results {
@@ -248,7 +248,7 @@ transform: translateX(-90%);
     height: 50px;
 }
 
-p {font: normal 21px "Brandon_light";line-height: 1.3em; color: #575757; margin: 16px;}
+p {font-size: 21px;line-height: 1.3em; color: #575757; margin: 16px;}
 
         body {
           padding: 20px;
