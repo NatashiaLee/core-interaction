@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+h1 {
+  font-size: 47px;
+}
 
 .ads {
   width: 630px;

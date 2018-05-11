@@ -62,6 +62,10 @@ margin-left: 52px;}
   width: 700px;
 }
 
+h1 {
+  font-size: 47px;
+}
+
 @media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
   h1 { font-family: brandon-grotesque, sans-serif;
   font-style: normal;

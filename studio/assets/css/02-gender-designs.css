@@ -9,6 +9,7 @@
 
 h1 {
   line-height: 1.1em;
+  font-size: 48px;
 }
 
 @media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {

@@ -14,7 +14,7 @@ padding-top: 20px;
 }
 
 @media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
-    h1 { font: normal 50px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
+    h1 { font-size: 50px; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
 }
 
 /* .toys img {

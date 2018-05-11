@@ -32,7 +32,7 @@ header {
   margin-left: -20px;
 }
 
-p {font: normal 21px "Brandon_light";line-height: 1.3em; color: #575757; margin: 16px;}
+p {font-size: 21px;line-height: 1.3em; color: #575757; margin: 16px;}
 
 body {
   padding: 20px;
