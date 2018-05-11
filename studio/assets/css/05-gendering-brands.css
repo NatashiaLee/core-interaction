@@ -228,7 +228,7 @@ transform: translateX(-90%);
 
 .slidecontainer {
   width: 100vw;
-  margin-left: -60px;
+  margin-left: -23px;
 }
   .slidecontainer img {
     width: 100%;
@@ -238,6 +238,7 @@ transform: translateX(-90%);
   .slider {
     -webkit-appearance: none;
     width: 100%;
+    margin-left: 0;
     height: 16px;
 }
 
@@ -247,10 +248,12 @@ transform: translateX(-90%);
     height: 50px;
 }
 
-        p {font: normal 30px "Brandon_light";line-height: 1.3em; color: #575757;}
+p {font: normal 21px "Brandon_light";line-height: 1.3em; color: #575757; margin: 16px;}
 
         body {
           padding: 20px;
+          margin-bottom: 10px;
+
         }
 
 .btext {

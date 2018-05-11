@@ -1,10 +1,7 @@
-@font-face { font-family: "Cabin-Regular"; src: url("../fonts/Cabin-Regular.otf"); }
-@font-face { font-family: "Brandon_light"; src: url("../fonts/Brandon_light.otf"); }
-
 blockquote {
-font-family: "Brandon_light";
-font-size: 18px;
-font-style: normal;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 300; font-size: 18px;
 width: 500px;
 margin: 0.25em 0;
 padding: 0.25em 40px;
@@ -66,7 +63,6 @@ content: "\2014 \2009";
 
 .btext {
   position: relative;
-  z-index: 100;
   width: 630px;
 }
 
@@ -165,34 +161,38 @@ margin-left: 160px;
       }
 
       @media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
-          h1 { font: normal 60px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
+          h1 { font-size: 50px; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
       }
 
-      p {font: normal 60px "Brandon_light";line-height: 1.3em; color: #575757;}
+      p {font-size: 21px;line-height: 1.3em; color: #575757; margin: 16px;}
 
       body {
-        padding: 10px;
+        padding: 20px;
+        margin-bottom: 60px;
         /* margin-left: 200px; */
-      }
-
-      html {
-        /* margin-left: 167px;
-        margin-right: -158%;
-        padding-left: 111px; */
       }
 
       .btext {
         /* margin-left: 390px; */
-        width: 120vw;
+        /* width: 100vw; */
+        width: 110%;
+        margin-left: -20px;
+        /* padding-left: -50px; */
       }
 
+blockquote {
+  font-size: 21px;
+  width: 84vw;
+  padding-right: 10px;
+}
       #Mer {
       width: 50vw;
+      margin-right:-30px;
     }
     #Dove {
       width: 50vw;
-      margin-left: -30px;
-      margin-top: 30px;
+      margin-left: -42px;
+      margin-top: 20px;
     }
 
     #Apple {
@@ -201,18 +201,22 @@ margin-left: 160px;
     }
 
     #image_container {
-      margin-left: -180px;
+      /* margin-left: -180px; */
       width: 100vw;
       height: auto;
-      margin-top: -47px;
+      padding-bottom: 0px;
+      /* margin-top: -47px; */
     }
+
+    blockquote:before {
+      left:-11px}
 
     .wrapper {
       margin-bottom: -10px;
     }
 
-    #results {
-      padding-bottom: 30px;
+    #result {
+      padding-bottom: 130px;
     }
 
       }

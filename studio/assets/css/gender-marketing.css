@@ -14,7 +14,7 @@ padding-top: 20px;
 }
 
 @media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
-    h1 { font: normal 60px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
+    h1 { font: normal 50px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px; line-height: 1em;
 }
 
 /* .toys img {
@@ -23,15 +23,24 @@ padding-top: 20px;
 } */
 .toys img {
   width: 100vw;
-  margin-left: -96px;
+  margin-left: -23px;
 }
 
 
-p {font: normal 25px "Brandon_light";line-height: 1.3em; color: black;}
+p {font: normal 21px "Brandon_light";line-height: 1.3em; color: #575757; margin: 16px;}
 
 body {
   padding: 20px;
+  margin-bottom: 60px;
+
   /* margin: 10px; */
+}
+
+.btext {
+  /* margin-left: 390px; */
+  /* width: 100vw; */
+  width: 110%;
+  margin-left: -20px;
 }
 
 }

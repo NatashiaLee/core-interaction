@@ -1,13 +1,6 @@
 {box-sizing: border-box;}
 
-@font-face { font-family: "Neutra Display Bold"; src: url("../fonts/Neutra Display Bold.otf"); }
-
-@font-face {font-family: proxima-nova, sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 15px;}
-
-@font-face { font-family: "Brandon_light"; src: url("../fonts/Brandon_light.otf"); }
+/* @font-face { font-family: "Brandon_light"; src: url("../fonts/Brandon_light.otf"); } */
 
 body {
   max-width: 900px;
@@ -20,7 +13,7 @@ body {
   /* top: -100px;
   left: 9px; */
   top: 70px;
-  left: 10px;
+  left: 1px;
 justify-content: flex-start; /* float: left; */
   display: inline-flex;
   margin-bottom: 180px;
@@ -30,7 +23,9 @@ justify-content: flex-start; /* float: left; */
 
 #theme {
   /* top: 150px; */
- font: normal 48px "Brandon_bld"; color: #22a8a1; text-align: center;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 700; font-size: 48px; color: #22a8a1; text-align: center;
 }
 
 #text {
@@ -46,7 +41,9 @@ opacity: 0;
   -webkit-background: white;
   transition: opacity 0.9s ease;
   pointer-events: none;
-  font: normal 15px "Brandon_light"; color: black;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 300; font-size: 15px; color: black;
 
   /* font-family: "proxima-nova", sans-serif; font-weight: 300px; font-size: 15px; line-height: 1.3em; color: #575757; */
 }
@@ -125,7 +122,9 @@ transform: scale(1.1);
 }
 
 .post a {
-  font: normal 21px "Brandon_bld"; line-height: 1em; color: #22a8a1;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 700; font-size: 21px; line-height: 1em; color: #22a8a1;
   transition: all 0.25s ease-in-out;
 }
 
@@ -166,7 +165,10 @@ margin-bottom: 30px;
 #theme {
   margin-bottom: 510px;
   width: 100vw;
-  font: normal 130px "Brandon_bld";
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 130px;
   top: 230px;
 }
 
@@ -175,13 +177,16 @@ margin-bottom: 30px;
   width: 83vw;
   height: 450px;
   margin-left: 6%;
-  font: normal 46px "Brandon_light"; line-height: 1.3em;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 46px; line-height: 1.3em;
 }
 .post {
   margin-bottom: 60px;
 }
 
 .post a {
-  font: normal 55px "Brandon_bld";
+  font-size: 55px;
 }
 }

@@ -3,40 +3,33 @@ html{margin-top: 2%; margin-left: 0; margin-right: 0%; margin-bottom: 4%;}
 
 /* <meta name="viewport" content="width=device-width" /> */
 
-@font-face { font-family: "moderne_sans"; src: url("../fonts/moderne_sans.ttf"); }
-@font-face { font-family: "noir_medium"; src: url("../fonts/noir_medium.otf"); }
-@font-face { font-family: "Brandon_bld"; src: url("../fonts/Brandon_bld.otf"); }
-@font-face { font-family: "Brandon_light"; src: url("../fonts/Brandon_light.otf"); }
+/* @font-face { font-family: "Brandon_bld"; src: url("../fonts/Brandon_bld.otf"); }
+@font-face { font-family: "Brandon_light"; src: url("../fonts/Brandon_light.otf"); } */
 
-@font-face { font-family: "Neutra Display Bold"; src: url("../fonts/Neutra Display Bold.otf"); }
-@font-face { font-family: "Neutra Display Medium"; src: url("../fonts/Neutra Display Medium.otf"); }
-
-@font-face { font-family: "Cabin-Regular"; src: url("../fonts/Cabin-Regular.otf"); }
-
-@font-face {font-family: fertigo-script, sans-serif;
+@font-face {font-family: brandon-grotesque, sans-serif;
 font-style: normal;
-font-weight: 400;}
+font-weight: 700;}
 
-@font-face {font-family: proxima-nova, sans-serif;
+@font-face {font-family: brandon-grotesque, sans-serif;
 font-style: normal;
 font-weight: 300;
-font-size: 15px;}
-
-@font-face {font-family: futura-pt, sans-serif;
-font-style: normal;
-font-weight: 300;}
+}
 
 @font-face { font-family: "Roboto-Regular"; src: url("../fonts/Roboto-Regular.ttf"); }
 
 
-@font-face { font-family: "COLLEGE"; src: url("../fonts/COLLEGE.ttf"); }
-
-h1 { font: normal 60px "Brandon_bld"; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px;}
+h1 { font-family: brandon-grotesque, sans-serif;
+font-style: normal; font-weight: 700; font-size: 60px; color: #22a8a1; text-align: center; margin-top: -2px; margin-bottom: -2px;}
 h2 { font: normal 20px "Cabin-Regular";}
 h3 {font: normal 48px "Roboto-Regular"; color: grey; text-align: center;}
 /* p {font-family: "proxima-nova", sans-serif; font-weight: 300px; font-size: 15px; line-height: 1.3em; color: #575757;} */
-p {font: normal 18px "Brandon_light";line-height: 1.4em; color: #575757;}
-a {font: normal 20px "Brandon_bld";
+p {font-family: brandon-grotesque, sans-serif;
+font-style: normal;
+font-weight: 300; font-size: 20px; line-height: 1.36em; color: #575757;}
+
+a {font-family: brandon-grotesque, sans-serif;
+font-style: normal;
+font-weight: 700; font-size: 20px;
 text-decoration: none; color: #22a8a1;}
 
 #full_fade {
@@ -218,7 +211,7 @@ footer {
   text-align: right;
 }
 
-.sources ul {
+/* .sources ul {
   list-style: none;
   margin-top: 5px;
   width: 400px;
@@ -229,18 +222,18 @@ margin-left: 199px;}
 .sources h2 {
   font: normal 30px "Neutra Display Medium"; color: black; text-align: center;
    -webkit-margin-after: 0.05em; margin-left: -40px;
-
+ */
 
 /* padding-bottom: 5px; */
 }
-
+/*
 ul a {
   font: normal 20px "Neutra Display Medium"; line-height: 1.3em; color: black; text-align: left;
 }
 
 ul a:hover {
   text-decoration: underline; color: #22a8a1;
-}
+} */
 
 
 /* animation: 5s ease-in-out infinite alternate;

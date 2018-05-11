@@ -1,5 +1,8 @@
 @font-face { font-family: "Neutra Display Bold"; src: url("../fonts/Neutra Display Bold.otf"); }
 @font-face { font-family: "Neutra Display Light"; src: url("../fonts/Neutra Display Light.otf"); }
+@font-face {font-family: brandon-grotesque, sans-serif;
+font-style: normal;
+font-weight: 300;}
 
 /* body {  background: linear-gradient(to right, #22b9e6 50%, #f6c4cf 50%);
 
@@ -24,9 +27,11 @@ height: 100vh;
 background-color: blue;
 } */
 
-h1 {font-family: "Neutra Display Bold";
+h1 {font-family: brandon-grotesque, sans-serif;
+font-style: normal;
+font-weight: 700;
   text-align: center;
-  top: 90px;
+  top: 70px;
   position: relative;
   margin: auto;
   color: white;
@@ -37,7 +42,7 @@ h1 {font-family: "Neutra Display Bold";
   width: 31%;
   display: inline-block;
   margin: 110px;
-  margin-bottom: 90px;
+  margin-bottom: 33px;
   margin-right: 50px;
 }
 
@@ -49,7 +54,9 @@ h1 {font-family: "Neutra Display Bold";
 }
 
 a {
-  font-family: "Neutra Display Light";
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 300;
   font-size: 30px;
   text-decoration: none;
   color: white;
@@ -67,4 +74,25 @@ a {
 
 .female, .male {
   animation: pulse 0.9s .2s ease-in-out infinite;
+}
+
+@media (max-width: 500px), (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 144dpi) {
+h1 {
+  line-height: 1.1em;
+  font-size: 90px;
+  top: 20px;
+}
+
+a {
+  font-size: 21px;
+}
+
+.female {
+  margin: auto;
+  margin-left: 14px;
+  width: 42%;
+}
+
+.male {
+  width: 48%;
 }
